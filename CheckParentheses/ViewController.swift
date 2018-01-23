@@ -30,7 +30,13 @@ class ViewController: UIViewController {
             if item == "(" { leftCount += 1 }
             if item == ")" { leftCount <= rightCount ? (flagError = true) : (rightCount += 1) }
         }
-        flagError ? (textView.textColor = UIColor.red) : (textView.textColor = UIColor.black)
+        if flagError {
+           textView.textColor = UIColor.red
+        } else if leftCount > rightCount {
+            textView.textColor = UIColor.orange
+        } else {
+            textView.textColor = UIColor.black
+        }
     }
 }
 
