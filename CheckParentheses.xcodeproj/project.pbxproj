@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					6782049E20170B8A00E0DD3B = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -274,12 +274,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4NV8HBUU7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 55PGPE7SYZ;
 				INFOPLIST_FILE = CheckParentheses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app82johnatan.swipe141.CheckParentheses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a1e2df8-54e4-4c7b-bac7-abdc155ea1b5";
+				PROVISIONING_PROFILE_SPECIFIER = c6e14278359857c8b78b8cd976b97f0b45ca7b99;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +291,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4NV8HBUU7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 55PGPE7SYZ;
 				INFOPLIST_FILE = CheckParentheses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app82johnatan.swipe141.CheckParentheses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a1e2df8-54e4-4c7b-bac7-abdc155ea1b5";
+				PROVISIONING_PROFILE_SPECIFIER = c6e14278359857c8b78b8cd976b97f0b45ca7b99;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
